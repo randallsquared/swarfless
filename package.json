@@ -1,0 +1,14 @@
+{
+  "name": "swarfless",
+  "version": "1.0.0",
+  "description": "A tiny router for Zeit's micro framework",
+  "engines": { "node": ">=8.0.0" },
+  "main": "index.js",
+  "repository": "https://github.com/randallsquared/swarfless",
+  "author": "Randall Randall <randall@randallsquared.com>",
+  "license": "Unlicense",
+  "dependencies": {
+    "boom": "^7.1.1",
+    "path-match": "^1.2.4"
+  }
+}
