@@ -1,6 +1,6 @@
 # swarfless
 
-A nano router for Zeit's micro
+A nano router for Zeit's [micro](https://github.com/zeit/micro)
 
 ```
 const micro = require('micro');
