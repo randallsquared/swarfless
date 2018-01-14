@@ -8,7 +8,7 @@ const { get, post, route } = require('swarfless');
 
 
 get('/', async () => 'Root of server');
-get('/hello/:name', (req) => `Hi, ${req.params.name}`);
+get('/hello/:name', async (req) => `Hi, ${req.params.name}`);
 
 module.exports = route;
 ```
